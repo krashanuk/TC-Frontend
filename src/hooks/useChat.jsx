@@ -1,6 +1,6 @@
 import { createContext, useContext, useEffect, useState } from "react";
 
-const backendUrl = "https://tanyachaudhary.com/backend/";
+const backendUrl = "https://tc-backend-cyan.vercel.app/";
 const ChatContext = createContext();
 
 export const ChatProvider = ({ children }) => {
